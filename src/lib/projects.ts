@@ -1,8 +1,8 @@
-import roast from "@/assets/roast.jpg.asset.json";
-import mareAlta from "@/assets/mare-alta.jpg.asset.json";
-import altura from "@/assets/altura.jpg.asset.json";
-import ambar from "@/assets/ambar.jpg.asset.json";
-import northCapital from "@/assets/north-capital.jpg.asset.json";
+import roast from "@/assets/roast.jpg";
+import mareAlta from "@/assets/mare-alta.jpg";
+import altura from "@/assets/altura.jpg";
+import ambar from "@/assets/ambar.jpg";
+import northCapital from "@/assets/north-capital.jpg";
 
 export type Project = {
   id: string;
@@ -29,7 +29,7 @@ export const projects: Project[] = [
       "Hero fotográfico de tela cheia",
       "Botão de ação em formato pill",
     ],
-    image: roast.url,
+    image: roast,
     span: "wide",
   },
   {
@@ -45,7 +45,7 @@ export const projects: Project[] = [
       "Layout com grandes áreas de respiro",
       "Botão contornado discreto",
     ],
-    image: mareAlta.url,
+    image: mareAlta,
     span: "tall",
   },
   {
@@ -61,7 +61,7 @@ export const projects: Project[] = [
       "Fotografia arquitetônica em grande escala",
       "Barra de busca integrada ao hero",
     ],
-    image: altura.url,
+    image: altura,
     span: "regular",
   },
   {
@@ -77,7 +77,7 @@ export const projects: Project[] = [
       "Tipografia mista: serifa e sans",
       "Composição assimétrica",
     ],
-    image: ambar.url,
+    image: ambar,
     span: "regular",
   },
   {
@@ -93,7 +93,7 @@ export const projects: Project[] = [
       "Serifa institucional com destaque colorido",
       "Navegação com área de cliente",
     ],
-    image: northCapital.url,
+    image: northCapital,
     span: "wide",
   },
 ];
